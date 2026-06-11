@@ -1,5 +1,7 @@
 # DummyDataGenerator-SangminHan-24070448
 
+> **[POC Stage]** 현재 개념 검증(Proof of Concept) 단계입니다. 구현 코드는 포함되지 않습니다.
+
 ## POC: Dummy 데이터 생성 Tool
 
 테스트용 더미 데이터를 생성하여 데이터 저장소에 자동으로 추가하는 도구 PoC 레포지토리입니다.
