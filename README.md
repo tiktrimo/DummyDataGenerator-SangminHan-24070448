@@ -6,17 +6,24 @@
 
 테스트용 더미 데이터를 생성하여 데이터 저장소에 자동으로 추가하는 도구 PoC 레포지토리입니다.
 
+## 개발 환경
+
+- **언어**: C++
+- **IDE**: Visual Studio
+
 ## 목적
 
-- 테스트를 위한 시료(Sample) 및 주문(Order) 더미 데이터 자동 생성 구조 검증
-- 생성된 데이터를 연결된 저장소(JSON 파일)에 직접 추가
+- 시료(Sample) 및 주문(Order) 더미 데이터 자동 생성 구조 검증
+- 생성된 데이터를 JSON 파일 저장소에 직접 추가
 
 ## 폴더 구조
 
 ```
-src/
-  generator/  - 시료·주문 더미 데이터 생성 로직
-data/          - 생성된 더미 데이터 저장 위치
+DummyDataGenerator-SangminHan-24070448/
+  src/
+    generator/  - 시료·주문 더미 데이터 생성 로직 (*.h, *.cpp)
+  data/         - 생성된 더미 데이터 저장 위치
+  DummyDataGenerator.sln
 ```
 
 ## 생성 데이터 항목
