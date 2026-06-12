@@ -26,6 +26,20 @@ DummyDataGenerator-SangminHan-24070448/
   DummyDataGenerator.sln
 ```
 
+## 빌드 및 실행 결과
+
+```
+[생성 완료]
+  시료 : 8종  -> data/samples.dat
+  주문 : 20건 -> data/orders.dat
+
+[생성된 시료] 실리콘 웨이퍼-8인치 / GaN 에피택셜 / SiC 파워기판 등 8종
+[주문 샘플]   seed=42로 재현 가능한 랜덤 데이터 (삼성전자, SK하이닉스 등)
+```
+
+- Build: MSBuild Debug|x64 — 에러/경고 없음
+- DataPersistence / DataMonitor POC와 동일 파일 포맷 호환 확인
+
 ## 생성 데이터 항목
 
 | 항목 | 내용 |
